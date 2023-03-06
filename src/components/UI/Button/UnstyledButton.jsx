@@ -7,7 +7,7 @@ const UnstyledButton = ({
   return (
     <button
       type={type}
-      className={`bg-white p-2 inline-block active:scale-95 transition-transform rounded bg-transparent ${className}`}
+      className={` p-2 inline-block active:scale-95 transition-transform rounded bg-transparent ${className}`}
       onClick={onClick}
     >
       {children}
